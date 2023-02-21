@@ -1,0 +1,9 @@
+@media (min-width: 768px) {
+  .tres-columnas-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .columna {
+    flex: 0 0 calc(33% - 1rem);
+  }
+}
